@@ -99,14 +99,14 @@ function run(input) {
 		case "git":
 			window.location = "https://github.com/pardsqq";
 			break;
-		case "play":
+		case "codes":
 			print("press keys on your keyboard in this order: 1, 4, 3");
 			codes.setTrigger(["1","4","3"], function(){
 				alert("yay! i love you too! <3");
 			});
 			break;
 		case "help":
-			print("<br> Commands: <br><br> dev >> Who am i with <3. <br><br> skills >> dev skills with <3. <br><br> cv >> i would really love to show you my CV <br><br> play >> crack this for run. (Using js lib) >>  <br><br> cls >> clear all with <3 <br><br> git >> browse all my projects. <3 <br><br>");
+			print("<br> Commands: <br><br> dev >> Who am i with <3. <br><br> skills >> dev skills with <3. <br><br> cv >> i would really love to show you my CV <br><br> codes >> crack this for run. (Using js lib) >>  <br><br> cls >> clear all with <3 <br><br> git >> browse all my projects. <3 <br><br>");
 			break;
 		default:
 			print("<br> Invalid command. Use help for a list of commands. :) ");
