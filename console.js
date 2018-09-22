@@ -175,5 +175,6 @@ $(document).ready(function() {
 		}
 	});
 	print("Logged in as dev@pardsqq.github.io <br>");
+	print("Use help for a list of commands. :) <br>");	
 	print("dev@pardsqq.github.io: >>  ");
 });
